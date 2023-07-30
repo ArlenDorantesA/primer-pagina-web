@@ -13,6 +13,8 @@ Espero que te puedas basar con este proyecto que se trabajó en el bootcamp de T
 *****
 En este apartado podrás encontrar el link de este proyecto, disfrútalo y guíate para hacer tu propia página! 🖥️💻🧠🙌🏻
 
+<img src="images/pagina-web-foto.png" alt="pagina web foto" width="600" >
+
 🔗 https://fastidious-piroshki-77cca9.netlify.app/
 
 *****
