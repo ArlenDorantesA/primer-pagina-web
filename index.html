@@ -1,0 +1,129 @@
+<!--Tipo de archivo-->
+<!DOCTYPE html>
+<!--Archivo raiz, contebedor principal-->
+<html lang="es">
+
+<head>
+    <!--Etiqueta Head: Configuraciones-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG</title>
+
+    <!--3 links para dscargar estilos de google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h2 {
+            color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Etiqueta Body: Contenido de la pagina-->
+    <header>
+        <!--Etiqueta header: para semantica-->
+        <!--Atributo center: para centrar texto-->
+        <center>
+            <h1>LIFESTYLE VLOG</h1>
+            <img src="images/Foto1-blog.jpg" alt="Foto girly pink" />
+        </center>
+    </header>
+
+    <section>
+        <!--ELEMENTO SEMANTICO de SECCION-->
+        <!--inicio de segundo titulo-->
+        <center>
+            <h3> TODO LO QUE NECESITAS PARA HACER</h3>
+            <h2> <em>journaling</em> </h2>
+            <!--indice-->
+            <ul>
+                <li>
+                    <p><a href="#donde hacer journaling">¿Dónde hacer mi journal?</a></p>
+                </li>
+            </ul>
+        </center>
+    </section>
+    <!--ELEMENTO SEMANTICO de ARTICULO-->
+    <article>
+        <!--Etiqueta de articulo: inicia contenido del articulo-->
+        <center>
+            <!--Etiqueta de imagenes: tres imagenes en ilera-->
+            <img  src="images/journal-1.jpg" alt="journaling 1" /> <img 
+                src="images/journal-2.jpg" alt="journaling 2" /> <img 
+                src="images/journal-3.jpg" alt="journaling 3">
+
+            <!--Etiqueta p: para escribir pàrrafos-->
+            <p> Te voy a enseñar todo lo que necesitas para hacer journaling</p>
+            <h3 id="donde hacer journaling"> <strong> ¿Dónde hacer mi journal?</strong></h3>
+            <p>Puedes hacerlo en un libro que sea específicamente diseñado para eso, esta idea es muy práctica ya que el
+                mismo te va a ir guiando, pero si no cuentas con uno, puedes empezar a escribir en papel, digital o como
+                te sea más fácil, el objetivo es empezar!</p>
+            <img width="250" height="300" src="images/5minute-journal-1.jpg" alt="libro rosa"> <img width="250"
+                height="300" src="images/foto-journal.jpg" alt="cuaderno"> <img width="250" height="300"
+                src="images/journal-digital.jpg" alt="tablet">
+            <p>Si haz intentado comenzar, pero no sabes que escribir, te voy a dejar aquí abajo un par de preguntitas
+                básicas que te van a ayudar muchísimo y te van a guiar:</p>
+            <!--Etiqueta ul: empieza lista desordenada-->
+            <strong>
+                <ul>
+                    <li>¿Cómo me sentí hoy?</li>
+                    <li>¿Qué hizo mi día un día feliz?</li>
+                    <li>¿Cuáles fueron mis logros del día?</li>
+                    <li>Metas y objetivos:</li>
+                    <li>Agradezco por:</li>
+                    <li>Afirmaciones positivas:</li>
+                </ul>
+            </strong>
+            <p>Hacer journal te va a ayudar en demasiadas cosas como:</p>
+            <!--Etiqueta ul: empieza lista desordenada-->
+            <strong>
+                <ul>
+                    <li>Agradecer</li>
+                    <li>Conocerte a ti mismo</li>
+                    <li>Saber cómo han estado tus días y cómo te has sentido, y para</li>
+                    <li>Manifestar</li>
+                </ul>
+            </strong>
+            <p>Siempre que hagas journal busca un espacio agradable y en el que te sientas súper cómoda y en calma, en
+                verdad te va a encantar y veras como van mejorando tus días si eres constante haciéndolo.</p>
+
+        </center>
+    </article>
+    <article id="seccion-article">
+        <center>
+            <h2>Formulario</h2>
+
+            <form action="/enviar-informacion">
+                <label for="fname">Nombre:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Apellido:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+
+                <h3>¿Te gustò el contenido de la pàgina?</h3>
+
+                  <input type="radio" id="Si" name="¿Te-gustò?" value="Si">
+                  <label for="Si">Si</label> <br>
+
+                  <input type="radio" id="No" name="¿Te-gustò?" value="No">
+                  <label for="No">No</label>
+
+            </form>
+        </center>
+    </article>
+    <!--elemento semantico para pie de pagina-->
+    <footer>
+        <br>
+        <br>
+        <br>
+        <p class="texto-bold"> <small> <em>Derechos de autor para: Arlen Avalos</em> </small></p>
+    </footer>
+
+
+</body>
+
+</html>

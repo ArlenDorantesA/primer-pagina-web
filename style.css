@@ -1,0 +1,37 @@
+*{
+    font-family: 'Kaisei Tokumin', serif;
+}
+
+body{
+    background-color: rgba(228, 227, 234, 0.926);
+}
+
+img{
+    width: 200px;
+}
+
+h1{
+    text-align: center;
+}
+
+/*selector de tipo -> p*/
+p{ 
+    color: rgb(180, 130, 130);
+} 
+
+/*selector de clase -> p*/
+.texto-cafe{
+    color: rgb(43, 30, 30);
+}
+
+.texto-bold {
+    font-weight: 900;
+}
+
+#seccion-article{
+    background-color:lavenderblush;
+}
+
+input[type="text"]{
+    background-color:rgba(249, 193, 231, 0.755);
+}
